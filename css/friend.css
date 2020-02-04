@@ -10,12 +10,12 @@
     border-radius: 38%;
 }
 
-.friend__avatar .g-avatar{
+.g-avatar.friend__avatar {
     width: 70px;
 }
 
-.friend__avatar .m-avatar{
-    width: 60px;
+.m-avatar.friend__avatar {
+    width: 60px
 }
 
 .friend .friend__column{

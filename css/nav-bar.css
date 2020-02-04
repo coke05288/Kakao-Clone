@@ -1,0 +1,39 @@
+.nav{
+    position: fixed;
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 15px 40px;
+    left:0px;
+    bottom:0px;
+    border-top: 1px solid #f7f7f7;
+    color : #1C1C1C;
+}
+
+.nav .nav__list{
+    display: flex;
+    justify-content:space-between;
+}
+
+.nav i{
+    font-size: 18px;
+}
+
+.nav .nav__list-link{
+    position: relative;
+}
+
+.nav .nav__badge{
+    position:absolute;
+    top: -12px;
+    right: -8px;
+    font-size : 12px;
+    color : white;
+    background-color: #dc5d46;
+    width: 20px;
+    height: 20px;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}

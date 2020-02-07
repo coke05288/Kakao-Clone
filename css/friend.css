@@ -2,14 +2,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color : #1C1C1C;
+    color: #1C1C1C;
     margin: 10px 0px;
 }
 
-.friend .friend__avatar{
+.friend .friend__avatar {
     width: 40px;
     height: 40px;
-    border-radius: 38%; 
+    border-radius: 38%;
 }
 
 .g-avatar.friend__avatar {
@@ -22,17 +22,17 @@
     height: 50px;
 }
 
-.friend .friend__column{
+.friend .friend__column {
     display: flex;
     align-items: center;
 }
 
-.friend .friend__avatar{
-    margin-right:10px;
+.friend .friend__avatar {
+    margin-right: 10px;
 }
 
-.friend__content .friend__name{
-    display:block;
+.friend__content .friend__name {
+    display: block;
     font-weight: 600;
     font-size: 14px;
     margin-bottom: 5px;
@@ -40,21 +40,21 @@
 
 .friend__content .friend__status,
 .friend__content .friend__bottom-text,
-.friend .chat__timestamp{
-    color:#656565;
-    
+.friend .chat__timestamp {
+    color: #656565;
+
 }
 
-.friend__content .friend__bottom-text{
-    font-size:12px;
-}
-
-.friend__content .friend__status,
-.friend .chat__timestamp{
+.friend__content .friend__bottom-text {
     font-size: 12px;
 }
 
-.friend .friend__now-listening{
+.friend__content .friend__status,
+.friend .chat__timestamp {
+    font-size: 12px;
+}
+
+.friend .friend__now-listening {
     border: 1.5px solid #ACF5C1;
     padding: 5px 10px;
     border-radius: 15px;
@@ -63,17 +63,17 @@
 }
 
 .friend__now-listening span,
-.friend__now-listening i{
+.friend__now-listening i {
     opacity: 0.6;
-    margin : 1px 2px;
+    margin: 1px 2px;
 }
 
-.friend__now-listening i{
-    color:#5aad77;
+.friend__now-listening i {
+    color: #5aad77;
 }
 
-.friend__add-btn{
-    display:flex;
+.friend__add-btn {
+    display: flex;
     font-size: 12px;
     padding: 6px 8px;
     border-radius: 5%;

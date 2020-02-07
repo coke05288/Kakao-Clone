@@ -1,5 +1,5 @@
-.header{
-    color:#1C1C1C;
+.header {
+    color: #1C1C1C;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -7,23 +7,23 @@
     margin-bottom: 16px;
 }
 
-.header .header__title{
+.header .header__title {
     font-size: 20px;
     font-weight: 600;
 }
 
-.header .header__icon{
+.header .header__icon {
     font-size: 8px;
-    margin-right:20px;
+    margin-right: 20px;
     cursor: pointer;
 }
 
-.header .header__header-column{
+.header .header__header-column {
     display: flex;
     align-items: center;
 }
 
-.header .header__back-btn{
+.header .header__back-btn {
     font-size: 22px;
-    margin-right:20px;
+    margin-right: 20px;
 }
